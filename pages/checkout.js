@@ -1,1 +1,0 @@
-export default function Checkout() { return <div style={{color: 'white'}}>Checkout Page</div>; }

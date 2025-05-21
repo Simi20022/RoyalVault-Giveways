@@ -1,1 +1,0 @@
-export default function ThankYou() { return <div style={{color: 'white'}}>Thank You Page</div>; }
