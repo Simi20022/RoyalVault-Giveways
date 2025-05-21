@@ -1,0 +1,1 @@
+export default function Home() { return <div style={{color: 'white'}}>Royal Giveaways Homepage</div>; }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Thank You - Royal Giveaways</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container fade-in">
+    <h1 class="glow">You're in! 🎉</h1>
+    <p>Your entry for:</p>
+    <p class="highlight" id="confirmed-item">...</p>
+    <p>has been successfully confirmed. Best of luck!</p>
+    <a href="index.html"><button>Back to Homepage</button></a>
+  </div>
+<script>
+  const item = new URLSearchParams(window.location.search).get('item');
+  document.getElementById('confirmed-item').textContent = item || 'your reward';
+</script>
+</body>
+</html>
